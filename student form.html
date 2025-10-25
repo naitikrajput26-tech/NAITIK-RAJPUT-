@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1 align="center"> Student Registration Form</h1>
-    <form action="#" method="post">
+    <hr>
+    <form  method="post" action="submit.html">
         <label for="fullname">Full Name:</label>
         <input type="text" id="fullname" name="fullname" placeholder="Enter your fullname" required>
         <br></br>
@@ -17,7 +18,7 @@
         <label for="password">Password:</label>
         <input type="password" id="password"   name="password" placeholder="Enter Password" required>
         <br></br>
-        <label for="Gender">Gender</label>
+        <label for="Gender">Gender:</label>
         <input type="radio" id="Male" name="Male" value="Male " required>
         <label for="Male">Male</label>
         <input type="radio" id="Female" name="Female" value="Female">
@@ -29,6 +30,7 @@
 
         <label for="Course">Course:</label>
         <select id="select Course" name="Course" required>
+            <option value="">--select course--</option>
             <option value="Btech">Btech</option>
             <option value="BCA">BCA</option>
             <option value="Mtech">Mtech</option>
@@ -41,14 +43,14 @@
         <br></br>
 
         <label for="address">Address:</label><br>
-        <textarea id="address" name="address" rows="5" cols="35" placeholder="Enter your address"></textarea>
+        <textarea id="address" name="address" rows="5" cols="35" placeholder="Enter your address" required></textarea>
         <br></br>
 
         <input type="submit" value="Register">
         <input type="reset" value="clear"
 
         <br></br>
-
+        <hr>
         <p align="center">&copy; 2025 Student Registration Form</p>
          </form>
 <br></br>
