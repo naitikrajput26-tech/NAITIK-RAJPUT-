@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>active</title>
+</head>
+<style>
+    body{background-color: brown;}
+    .boxes{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .box{
+        width: 332px;;
+        height: 400px; ;
+        background-color: aliceblue;
+        padding: auto;
+        margin: 2px;
+    }
+    @media only screen and (max-width:450px){
+        body{
+            background-color:blue;
+        }
+        .boxes{
+        flex-direction:column;
+        }
+
+    }
+
+ 
+    
+</style>
+<body>
+    <div class="body">HII
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
