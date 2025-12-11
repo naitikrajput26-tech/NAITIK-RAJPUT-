@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form expriment</title>
+<style>
+    body {
+      font-family: Arial;
+      background-color: Grey;
+      margin: 0;
+      padding: 0;
+    }
+
+    .label {
+      border: 2px solid black;
+      margin:  auto;
+      background-color: green;
+      color:white;
+      }
+
+    .header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .btn {
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;}
+</style>
+
+</head>
+<body class="body">
+<h1 class="header"> Student Registration Form</h1>
+
+<form  method="post" action="#">
+<label class="label" for="name"> Name:</label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+<label class="label" for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Enter valid email address" required>
+        <br>
+<label class="label" for="contact">Contact no.:</label>
+<input type="tel" id="contact" name="contact" placeholder="Enter phone number" required>
+        <br>
+
+<label class="label" for="Gender">Gender:</label>
+<input type="radio" id="Male" name="Male" value="Male " required>
+<label class="label" for="Male">Male</label>
+<input type="radio" id="Female" name="Female" value="Female">
+<label class="label" for="Female">Female</label>
+<input type="radio" id="Other" name="other" value="Other">
+<label class="label" for="Other">Other</label> 
+<div class="btn"><input type="submit" value="Register">
+<input type="reset" value="clear"> </div>
+
+<label class="label" for="Course">Course:</label>
+<select id="select Course" name="Course" required>
+<option value="Btech">Btech</option>
+<option value="Mtech">Mtech</option>
+</select>
+<br>
+<p>NAME-NAITIK RAJPUT</p>
+<p>Class-cse21</p>
+<p>add. no. - 2025B01010719</p>
+
+
+
